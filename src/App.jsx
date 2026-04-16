@@ -1,5 +1,6 @@
 import Counter from "./components/Counter"
 import TextComponent from "./components/TextComponent"
+import Timer from "./components/Timer"
 
 function App() {
 
@@ -7,7 +8,8 @@ function App() {
     <>
       <h1>Use Effect</h1>
       {/* <TextComponent/> */}
-      <Counter/>
+      {/* <Counter/> */}
+      <Timer/>
     </>
   )
 }
