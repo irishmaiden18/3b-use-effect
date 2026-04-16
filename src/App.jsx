@@ -1,5 +1,6 @@
 import Counter from "./components/Counter"
 import Posts from "./components/Posts"
+import SinglePost from "./components/SinglePost"
 import TextComponent from "./components/TextComponent"
 import Timer from "./components/Timer"
 
@@ -11,9 +12,12 @@ function App() {
       {/* <TextComponent/> */}
       {/* <Counter/> */}
       {/* <Timer/> */}
-      <Posts/>
+      {/* <Posts/> */}
+      <SinglePost/>
     </>
   )
 }
 
 export default App
+
+//330
