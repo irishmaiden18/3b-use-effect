@@ -1,4 +1,5 @@
 import Counter from "./components/Counter"
+import Pokemon from "./components/Pokemon"
 import Posts from "./components/Posts"
 import SinglePost from "./components/SinglePost"
 import TextComponent from "./components/TextComponent"
@@ -13,7 +14,8 @@ function App() {
       {/* <Counter/> */}
       {/* <Timer/> */}
       {/* <Posts/> */}
-      <SinglePost/>
+      {/* <SinglePost/> */}
+      <Pokemon/>
     </>
   )
 }
